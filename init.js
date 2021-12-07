@@ -5,7 +5,7 @@ document.getElementById('clearBtn').addEventListener('click', function () {
     document.getElementById('surnameOutput').innerText = "Фамилия";
     /*Сброс фамилии*/
 
-	/*Сброс профессии*/
+    /*Сброс профессии*/
     document.getElementById('professionOutput').innerText = "Профессия";
     /*Сброс профессии*/
 
@@ -21,11 +21,11 @@ document.getElementById('clearBtn').addEventListener('click', function () {
     document.getElementById('birthDayOutput').innerText = "День рождения";
     /*Сброс дня рождения*/
 
-	/*Сброс пола*/
+    /*Сброс пола*/
     document.getElementById('genderOutput').innerText = "Пол";
     /*Сброс пола*/
 
-	/*Сброс иконки*/
+    /*Сброс иконки*/
     document.getElementById('card-bg').style.background = "";
     /*Сброс иконки*/
 });
@@ -38,7 +38,7 @@ document.getElementById('generateBtn').addEventListener('click', function () {
     document.getElementById('surnameOutput').innerText = initPerson.surName;
     /*Отображение фамилии*/
 
-	/*Отображение профессии*/
+    /*Отображение профессии*/
     document.getElementById('professionOutput').innerText = initPerson.profession;
     /*Отображение профессии*/
 
@@ -54,11 +54,11 @@ document.getElementById('generateBtn').addEventListener('click', function () {
     document.getElementById('birthDayOutput').innerText = initPerson.birthDay;
     /*Отображение дня рождения*/
 
-	/*Отображение пола*/
+    /*Отображение пола*/
     document.getElementById('genderOutput').innerText = initPerson.gender;
     /*Отображение пола*/
 
-	/*Отображение иконки*/
+    /*Отображение иконки*/
     document.getElementById('card-bg').style.background = `url(img/`+initPerson.icon+`)`;
     /*Отображение иконки*/
 });
